@@ -10,7 +10,7 @@ public class Insertion {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		 String jdbcURL = "jdbc:mysql://127.0.0.1:3306/java?user=root&password=nivesh@2003";
+		 String jdbcURL = "jdbc:mysql://127.0.0.1:3306/java?user=root&password=nivesh@2003"; //Replace with your URL
 		 String insertSQL = "INSERT INTO MGMT_SYSTEM (NAME, AGE, ID) VALUES (?, ?, ?)";
 		  try {
 	            // Load MySQL JDBC Driver
